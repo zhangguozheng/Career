@@ -54,4 +54,7 @@ public class UsersCtrl {
         modelMap.addAttribute("lxrlist",data);
         return "vlist";
     }
+    public String delUser(String uname){
+        return null;
+    }
 }
